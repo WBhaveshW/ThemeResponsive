@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+:root {
+  --primary-font: "Acme", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  font-family: var(--primary-font);
+}
+
+/* body starts here */
+#body {
+  display: flex;
+  background-color: brown;
+  flex-wrap: wrap;
+  height: 150vh;
+}
+/* body ends here */
+
+/* header starts here */
+#header {
+  background-color: chartreuse;
+}
+/* header ends here */
+
+/* navigation starts here */
+#navigation {
+  background-color: rgb(155, 30, 30);
+  width: 20%;
+}
+/* navigation ends here */
+
+/* content starts here */
+#content {
+  background-color: rgb(30, 136, 47);
+  width: 60%;
+}
+/* content ends here */
+
+/* sidebar starts here */
+#sidebar {
+  background-color: rgb(76, 0, 255);
+  width: 20%;
+}
+/* sidebar ends here */
+
+/* footer starts here */
+#footer {
+  background-color: chartreuse;
+}
+/* footer ends here */
